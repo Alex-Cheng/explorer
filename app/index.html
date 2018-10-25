@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Ethereum Block Explorer</title>
+  <title>CPChain Block Explorer</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles/main.css">
@@ -60,7 +60,7 @@
             <!-- Modal content-->
             <div class="modal-content">
                 <center><div class="modal-header">
-                    <h4 class="modal-title">Allow Access to Geth and Refresh the Page</h4>
+                    <h4 class="modal-title">Allow Access to CPChain and Refresh the Page</h4>
                 </div>
                 <div class="modal-body">
                     <code><p id="modaltext"></p></code>
@@ -79,7 +79,7 @@
     </footer>
 </div>
 <script>
-$("#modaltext").text( 'geth --rpc --rpccorsdomain "'+ window.location.protocol + '//' + window.location.host + '"' );
+$("#modaltext").text( 'cpchain --rpcaddr localhost:8501 --rpccorsdomain "'+ window.location.protocol + '//' + window.location.host + '"' );
 </script>
 </body>
 </html>

@@ -2,7 +2,7 @@
   "name": "EthereumExplorer",
   "private": false,
   "version": "0.1.0",
-  "description": "A lightweight ethereum block explorer",
+  "description": "A lightweight cpchain block explorer",
   "repository": "https://github.com/etherparty/explorer",
   "license": "MIT",
   "devDependencies": {
